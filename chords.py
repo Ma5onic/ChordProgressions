@@ -64,7 +64,8 @@ def main(args):
         ("IV", "V")])
 
     # Display the graph to verify it's correct.
-    draw_graph(G)
+    # NOTE: Disabling now that it's correct.
+    # draw_graph(G)
 
     chord_list = ["I"]
     build_chord_list(G, "I", chord_list)
